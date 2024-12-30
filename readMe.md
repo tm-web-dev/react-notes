@@ -98,7 +98,8 @@ Components are reusable building blocks of a React app. They are like JavaScript
 
 # What are Props?
 
-Props (short for "properties") are like function arguments in React. They are used to pass data from a parent component to a child component. Props are read-only, meaning the child component cannot change them directly.
+Props (short for "properties") are like function arguments in React. They are used to pass data from a parent component to a child component. 
+Props are read-only, meaning the child component cannot change them directly.
 
 # Documentation
 
