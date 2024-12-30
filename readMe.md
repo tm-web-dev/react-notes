@@ -20,7 +20,9 @@ It breaks the rendering work into small units and spreads it over multiple frame
 ## Key Features of Fiber:
 
 Handles updates with priority, such as animations or user inputs.
+
 Supports asynchronous rendering for smoother user experience.
+
 Enables pausing, resuming, or reusing work for better performance.
 
 # How React Fiber Works:
@@ -50,6 +52,7 @@ Reconciliation is the process React uses to update the user interface efficientl
 ## Key Points:
 
 React avoids full re-renders and updates only what has changed.
+
 Makes React apps faster by optimizing DOM updates.
 
 # What is an Update in React?
@@ -61,8 +64,11 @@ Example:  When you call setState or useState, React schedules an update.
 ## Types of Updates:
 
 State Updates
+
 Props Updates
+
 Context Changes
+
 
 # What is Virtual DOM in React?
 
@@ -71,6 +77,7 @@ The Virtual DOM is a lightweight JavaScript representation of the real DOM. Reac
 ## Key Benefits:
 
 Faster updates because React avoids direct DOM manipulation.
+
 Improves performance by batching and optimizing updates.
 
 # Why Use Keys in Loops When Injecting HTML?
@@ -80,7 +87,9 @@ Keys help React identify which items in a list have changed, been added, or remo
 ## Reasons to Use Keys:
 
 Improves rendering performance by avoiding unnecessary re-renders.
+
 Helps React preserve the state of components between renders.
+
 Avoids unexpected bugs in dynamic lists.
 
 # What are Components?
