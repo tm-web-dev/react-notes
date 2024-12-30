@@ -11,6 +11,8 @@ The useState hook in React is a special function that lets you add and manage st
 
 It allows you to store a value (like a variable) and update it when needed, while also making React re-render the component whenever the value changes.
 
+
+
 # React Fiber Architecture
 
 React Fiber is the underlying algorithm and architecture behind React's rendering engine, introduced in React 16. It enhances React's ability to render components more efficiently, especially for complex applications with heavy updates.
