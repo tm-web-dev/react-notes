@@ -29,11 +29,11 @@ Enables pausing, resuming, or reusing work for better performance.
 
 ##### Phases in Fiber Architecture:
 
-Reconciliation Phase ("Render Phase"):
+**Reconciliation Phase ("Render Phase"):**
 
 React Fiber creates a "work in progress" tree (virtual DOM) to calculate the minimal changes needed. This phase can be paused and resumed.
 
-Commit Phase:
+**Commit Phase:**
 
 After determining the changes, React updates the real DOM in a single, synchronous step. This ensures UI consistency.
 
@@ -49,7 +49,7 @@ Fiber architecture uses fiber nodes as JavaScript objects to represent each comp
 
 Reconciliation is the process React uses to update the user interface efficiently. It compares the new virtual DOM tree with the previous one and calculates the minimal changes needed to update the real DOM.
 
-Key Points:
+**Key Points:**
 
 React avoids full re-renders and updates only what has changed.
 
@@ -59,9 +59,9 @@ Makes React apps faster by optimizing DOM updates.
 
 An update in React refers to any change in the state or props of a component that causes React to re-render the component and update the UI.
 
-Example:  When you call setState or useState, React schedules an update.
+**Example:**  When you call setState or useState, React schedules an update.
 
-Types of Updates:
+**Types of Updates:**
 
 State Updates
 
@@ -74,7 +74,7 @@ Context Changes
 
 The Virtual DOM is a lightweight JavaScript representation of the real DOM. React uses it to track changes and update only the parts of the real DOM that have changed.
 
-Key Benefits:
+**Key Benefits:**
 
 Faster updates because React avoids direct DOM manipulation.
 
@@ -84,7 +84,7 @@ Improves performance by batching and optimizing updates.
 
 Keys help React identify which items in a list have changed, been added, or removed. They are crucial for efficient updates and maintaining the correct order of elements.
 
-Reasons to Use Keys:
+**Reasons to Use Keys:**
 
 Improves rendering performance by avoiding unnecessary re-renders.
 
