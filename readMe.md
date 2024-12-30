@@ -17,7 +17,7 @@ Fiber is the new reconciliation engine in React, introduced to improve rendering
 
 It breaks the rendering work into small units and spreads it over multiple frames, ensuring the app remains responsive.
 
-Key Features of Fiber:
+**Key Features of Fiber:**
 
 Handles updates with priority, such as animations or user inputs.
 
