@@ -17,7 +17,7 @@ Fiber is the new reconciliation engine in React, introduced to improve rendering
 
 It breaks the rendering work into small units and spreads it over multiple frames, ensuring the app remains responsive.
 
-## Key Features of Fiber:
+Key Features of Fiber:
 
 Handles updates with priority, such as animations or user inputs.
 
@@ -27,7 +27,7 @@ Enables pausing, resuming, or reusing work for better performance.
 
 # How React Fiber Works:
 
-### Phases in Fiber Architecture:
+##### Phases in Fiber Architecture:
 
 Reconciliation Phase ("Render Phase"):
 
@@ -37,11 +37,11 @@ Commit Phase:
 
 After determining the changes, React updates the real DOM in a single, synchronous step. This ensures UI consistency.
 
-### Unit of Work:
+##### Unit of Work:
 
 Fiber breaks rendering tasks into small units of work, each representing a part of the component tree. These units allow React to stop and resume rendering efficiently.
 
-### Fiber Nodes:
+##### Fiber Nodes:
 Fiber architecture uses fiber nodes as JavaScript objects to represent each component and its associated state, props, and DOM updates.
 
 
