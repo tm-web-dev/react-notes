@@ -15,6 +15,16 @@ function App() {
     }
     
   }
+  /* Below interview question to add multiple values.
+  const addValue = () => {
+  
+    setCounter = counter + 1
+    setCounter(preCounter => counter + 1)
+    setCounter(preCounter => counter + 1)
+    setCounter(preCounter => counter + 1)
+  
+  }
+  */
 
   //Assignment - Remove Value cannot be negative
   const removeValue = () => {
