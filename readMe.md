@@ -11,6 +11,10 @@ The useState hook in React is a special function that lets you add and manage st
 
 It allows you to store a value (like a variable) and update it when needed, while also making React re-render the component whenever the value changes.
 
+## useCallback React Hook
+## useEffect React Hook
+## useRef React Hook
+
 # What is Fiber in React?
 
 Fiber is the new reconciliation engine in React, introduced to improve rendering performance and make React apps smoother. 
